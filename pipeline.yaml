@@ -6,13 +6,13 @@ spec:
   arguments:
     parameters:
     - name: application-name-dev
-      value: testapp-dev
+      value: <APP_NAME> #CHANGE
     - name: application-name-stag
-      value: testapp-staging
+      value: <APP_NAME2> #CHANGE
     - name: revision
-      value: main
+      value: <REVISION HASH> #CHANGE
     - name: argocd-server-address
-      value: 192.168.64.21:32645
+      value: <SERVER ADDRESS> #CHANGE
     - name: argocd-credentials-secret
       value: argocd-user
   templates:
